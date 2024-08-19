@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF242A32</color>
+    <color name="hint_color">#FF67686D</color>
+    <color name="background_edit_text_search">#FF3A3F47</color>
+    <color name="tab_indicator_color">#FF3A3F47</color>
+    <color name="blue_selected_color">#FF0296E5</color>
 </resources>
