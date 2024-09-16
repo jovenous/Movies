@@ -7,4 +7,5 @@
     <color name="background_edit_text_search">#FF3A3F47</color>
     <color name="tab_indicator_color">#FF3A3F47</color>
     <color name="blue_selected_color">#FF0296E5</color>
+    <color name="gray_text">#92929D</color>
 </resources>
