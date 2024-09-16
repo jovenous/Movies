@@ -13,6 +13,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.example.movies.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,6 +30,19 @@ class MainActivity : AppCompatActivity() {
         }
         binding.bottomNavigation.setupWithNavController(navController)
 
+        bottomNavItemChangeListener(binding.bottomNavigation)
+
     }
+
+    private fun bottomNavItemChangeListener(navView: BottomNavigationView) {
+        navView.setOnItemSelectedListener { item ->
+            if (item.itemId != navView.selectedItemId) {
+                navController.popBackStack(item.itemId, inclusive = true, saveState = false)
+                navController.navigate(item.itemId)
+            }
+            true
+        }
+    }
+
 
 }
