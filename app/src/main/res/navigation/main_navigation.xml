@@ -11,20 +11,23 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
 
+        <action
+            android:id="@+id/action_home_to_search"
+            app:destination="@id/search" />
     </fragment>
 
     <fragment
         android:id="@+id/search"
-        android:name="com.example.movies.presentation.home.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home">
+        android:name="com.example.movies.presentation.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
 
     </fragment>
 
     <fragment
         android:id="@+id/watch_list"
         android:name="com.example.movies.presentation.home.HomeFragment"
-        android:label="fragment_home"
+        android:label="fragment_watch_list"
         tools:layout="@layout/fragment_home">
 
     </fragment>
