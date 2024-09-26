@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_home_to_search"
             app:destination="@id/search" />
+        <action
+            android:id="@+id/action_home_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
     </fragment>
 
     <fragment
@@ -31,5 +34,10 @@
         tools:layout="@layout/fragment_home">
 
     </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.example.movies.presentation.movieDetail.MovieDetailFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail" />
 
 </navigation>

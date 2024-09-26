@@ -2,6 +2,7 @@
     <string name="app_name">Movies</string>
     <string name="what_do_you_want_to_watch">What do you want to watch?</string>
     <string name="search">Search</string>
+    <string name="detail">Detail</string>
     <string name="now_playing">Now\nplaying</string>
     <string name="upcoming">Upcoming</string>
     <string name="top_rated">Top rated</string>
@@ -14,4 +15,5 @@
     <string name="info">Info</string>
     <string name="no_movie_found">We Are Sorry, We Can \n Not Find The Movie :(</string>
     <string name="search_suggestion">Find your movie by Type title,\n categories, years, etc</string>
+    <string name="bookmark">Bookmark</string>
 </resources>

@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal">
 
     <androidx.cardview.widget.CardView
@@ -20,6 +21,9 @@
             android:src="@drawable/movie_rv" />
 
     </androidx.cardview.widget.CardView>
+
+
+<!--    Text and scr change on tools:-->
 
     <TextView
         android:layout_width="wrap_content"

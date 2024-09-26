@@ -32,6 +32,10 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_home_to_search)
         }
 
+        binding.root.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_movieDetailFragment)
+        }
+
     }
 
 
